@@ -19,4 +19,4 @@ RUN apt-get update \
     && chmod +x /run-agent.sh /run-services.sh \
     && sync
 
-CMD ["/run-services.sh"]
+CMD ["./run-services.sh"]
