@@ -1,0 +1,4 @@
+/.idea
+/docker-teamcity-agent.iml
+/dist/buildagent/*
+!/dist/buildagent/.gitkeep
