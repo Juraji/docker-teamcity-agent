@@ -13,7 +13,7 @@ RUN apt-get update \
         openjfx \
         sudo \
         git \
-    && apt clean all
+    && apt clean all \
     && useradd -m buildagent \
     && chmod +x /opt/buildagent/bin/*.sh \
     && chmod +x /run-agent.sh /run-services.sh \
