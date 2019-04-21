@@ -8,7 +8,7 @@ COPY run-services.sh /run-services.sh
 COPY dist/buildagent /opt/buildagent
 
 RUN apt-get update \
-    && apt install -y --no-install-recommends
+    && apt install -y --no-install-recommends \
         apt-utils \
         openjfx \
         sudo \
