@@ -7,6 +7,9 @@ A custom Docker image for the TeamCity agent
 ### SDK
 * OpenJDK 11
 * OpenJFX 11
+* Go 1.12.4  
+  * [github-release](https://github.com/aktau/github-release)  
+  _Use `github-release` in Script runners to deploy builds to Github releases._ 
 
 ### Teamcity Buildagent
 _This only applies to the image deployed on [the Docker Hub](https://hub.docker.com/r/juraji/teamcity-agent)._
